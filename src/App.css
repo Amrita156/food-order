@@ -1,0 +1,347 @@
+/* .App {
+  text-align: center;
+} */
+
+.maxwidth{
+  width: 100%;
+}
+
+.contentwidth{
+  max-width: 960px;
+}
+
+p{
+  font-size: small;
+}
+
+span{
+  font-size: small;
+}
+
+/* Start Header  */
+
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+  height: 90px;
+  
+}
+   /* End Header  */
+
+
+   /* Start Dish */
+
+.Content{
+background-color: rgb(243, 243, 243);
+padding: 40px 0;
+min-height: 600px;
+}
+
+.orderContent{
+  position: relative;
+}
+
+.menuItem{
+  margin: 20px 0;
+}
+
+.dish{
+  background-color: white;
+  /* width: 170px; */
+  
+  border: 1px solid rgb(224, 224, 224);
+  transition-duration: 0.3s;
+}
+
+.dish:hover{
+  border: 1px solid rgb(179, 179, 179);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.dishLink:hover{
+  text-decoration:none;
+
+}
+
+.submitLink:hover{
+  text-decoration:none;
+
+}
+
+.dishName{
+  font-weight: 500;
+}
+
+.dishPrice{
+  font-weight: 500;
+  width: 70%;
+}
+
+.picImg{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.picText{
+  color: black;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.picText:hover{
+  color: black;
+}
+
+
+.del{
+  background-color: rgb(243, 243, 243);
+  color:#ac0000;
+  border:none;
+}
+
+.del:hover{
+  
+  color:#f73030;
+
+} 
+
+.del:link{
+  color: #125568;
+}
+
+.addDish{
+  background-color: rgb(243, 243, 243);
+  
+  color:#00ac17;
+
+  border:none;
+}
+
+.addDish:hover{
+  
+  color:#22ee3d;
+
+} 
+
+.addDish:active:after{
+  color: #125568;
+  border:none;
+
+}
+
+.addDish:active{
+  color: #00ac17;
+  border:none;
+
+}
+
+.addDish:visited{
+  color: #00ac17;
+  border:none;
+
+}
+
+.minusDish{
+  background-color: rgb(243, 243, 243);
+  color:#ac0000;
+  border:none;
+
+}
+
+.minusDish:hover{
+  
+  color:#f73030;
+
+} 
+
+/* End Dish */
+
+/* Start Order */
+.orderUl{
+  list-style-type: none;
+}
+/* End Order */
+
+/********** Large devices only **********/
+
+@media (min-width: 961px) {
+
+  .dish{
+    width: 155px;
+    
+  }
+
+  .rightCol{
+    margin-top: 15px;
+    border-left: 2px solid #28a745;
+
+  }
+
+  .popup{
+    width: 500px;
+    height: 300px;
+
+}
+
+}
+
+/********** Medium devices only **********/
+@media (max-width: 960px) and ( min-width: 768px) {
+
+  .dish{
+   width: 145px;
+
+  }
+
+  .rightCol{
+    margin-top: 15px;
+    border-left: 2px solid #28a745;
+
+  }
+  .popup{
+    width: 400px;
+    height: 320px;
+
+}
+
+}
+
+/********** Small 1 devices only **********/
+@media (max-width: 767px)and ( min-width: 610px) {
+
+  .dish{
+    width: 150px;
+
+  }
+
+  .rightCol{
+    margin-top: 15px;
+    border-top: 2px solid rgb(24, 23, 23);
+
+  }
+  .popup{
+    width: 350px;
+    height: 365px;
+
+}
+}
+
+/********** Small 2 devices only **********/
+@media (max-width: 609px)and ( min-width: 576px) {
+
+  .dish{
+    width: 120px;
+
+  }
+
+  .rightCol{
+    margin-top: 15px;
+    border-top: 2px solid rgb(24, 23, 23);
+
+  }
+  .popup{
+    width: 350px;
+    height: 365px;
+
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 575px)and ( min-width: 340px) {
+
+  .dish{
+     width: 135px;
+
+  }
+
+  .rightCol{
+    margin-top: 15px;
+    border-top: 2px solid rgb(24, 23, 23);
+
+  }
+  .popup{
+    width: 350px;
+    height: 365px;
+
+}
+}
+
+/**********  Extra Extra small devices only **********/
+@media (max-width: 339px){
+
+  .dish{
+     width: 105px;
+
+  }
+
+  .rightCol{
+    margin-top: 15px;
+    border-top: 2px solid rgb(24, 23, 23);
+
+  }
+  .popup{
+    width: 90%;
+    height: 390px;
+
+}
+}
+
+
+/* Start Header */
+.NavLink{
+  width: 150px;
+}
+
+.NavLink:hover{
+  color: #9da7b3;
+  text-decoration: none;
+}
+
+/* End Header  */
+
+
+/* Start Footer */
+
+.FooterNav{
+  color: white;
+}
+
+.FooterNav:hover{
+  color: #9da7b3;
+  text-decoration: none;
+}
+   
+/* End Footer */
+
+
+/* Start Contact Us */
+.contactus{
+  max-width: 960px;
+}
+
+.hours{
+  background-color: rgb(243, 243, 243);
+}
+/* End Contact Us */
+
+
+/* Start Order Info */
+
+.validateNote{
+  color: red;
+  font-size: small;
+  line-height:100%;
+}
+
+.textArea{
+  resize: none;
+}
+
+.theForm{
+  border:1px solid rgb(0, 0, 0);
+
+}
+/* Start Order Info */
